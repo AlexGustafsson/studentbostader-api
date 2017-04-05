@@ -41,11 +41,12 @@ api.fetchAccommodations()
 | available | Date of availability | string | In the 'YYYY-MM-DD' format. I.e. '2017-05-01' |
 | url | Url to the listing | string |  |
 | text | Text related to the listing | string | Usually "sells" the location and accommodation |
-| publicationTexts | List of texts related to the listing | array of strings | Unkown usage | 
+| publicationTexts | List of texts related to the listing | array of strings | Unkown usage |
 | description | Usually a short description of the listing | string | I.e. 'Ej möblerad' |
 | id | Id of the listing | number | Unknown usage |
 | points | Required queue points to be eligible | number |  |
 | advertType |  |  | Unknown usage |
+| directlyAvailable | Whether or not the accommodation is listed as 'Boende Direkt' | bool | |
 
 ### Contributing
 

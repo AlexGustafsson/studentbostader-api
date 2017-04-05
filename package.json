@@ -1,10 +1,10 @@
 {
   "name": "studentbostader-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An API to retrieve student accommondations from studentbostader.se",
   "main": "index.js",
   "scripts": {
-    "test": "xo && ava test/*.js"
+    "test": "xo && ava -v test/*.js"
   },
   "repository": {
     "type": "git",
@@ -13,7 +13,8 @@
   "author": "Alex Gustafsson",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.16.0"
+    "axios": "^0.16.0",
+    "parse-json": "^2.2.0"
   },
   "devDependencies": {
     "ava": "^0.18.2",
