@@ -27,25 +27,25 @@ api.fetchAccommodations()
 
 ### Available values
 
- | property | description | type | note |
- | --- | --- | --- | --- | --- |
- | image | An url to an image of the listing | string |  |
- | address | The address | string |  |
- | location | The name of the neighborhood / location | string |  |
- | paymentType | Text explaining type of payment | string | I.e "Hyra" (monthly rent) |
- | rent | The cost of the payment | number |  |
- | rentUnit | Unit of `rent` | string | Typically 'kr/mån' |
- | type | Type of accommodation | string | I.e. 'Korridorsrum', 'Lägenhet' |
- | typeUnit | Unit of `type` | string | Typically 'Storlek/Typ' |
- | area | Number of square meters | number |  |
- | available | Date of availability | string | In the 'YYYY-MM-DD' format. I.e. '2017-05-01' |
- | url | Url to the listing | string |  |
- | text | Text related to the listing | string | Usually "sells" the location and accommodation |
- | publicationTexts | List of texts related to the listing | array of strings | Unkown usage | 
- | description | Usually a short description of the listing | string | I.e. 'Ej möblerad' |
- | id | Id of the listing | number | Unknown usage |
- | points | Required queue points to be eligible | number |  |
- | advertType |  |  | Unknown usage |
+| property | description | type | note |
+| -------- | ----------- | ---- | ---- |
+| image | An url to an image of the listing | string |  |
+| address | The address | string |  |
+| location | The name of the neighborhood / location | string |  |
+| paymentType | Text explaining type of payment | string | I.e "Hyra" (monthly rent) |
+| rent | The cost of the payment | number |  |
+| rentUnit | Unit of `rent` | string | Typically 'kr/mån' |
+| type | Type of accommodation | string | I.e. 'Korridorsrum', 'Lägenhet' |
+| typeUnit | Unit of `type` | string | Typically 'Storlek/Typ' |
+| area | Number of square meters | number |  |
+| available | Date of availability | string | In the 'YYYY-MM-DD' format. I.e. '2017-05-01' |
+| url | Url to the listing | string |  |
+| text | Text related to the listing | string | Usually "sells" the location and accommodation |
+| publicationTexts | List of texts related to the listing | array of strings | Unkown usage | 
+| description | Usually a short description of the listing | string | I.e. 'Ej möblerad' |
+| id | Id of the listing | number | Unknown usage |
+| points | Required queue points to be eligible | number |  |
+| advertType |  |  | Unknown usage |
 
 ### Contributing
 
