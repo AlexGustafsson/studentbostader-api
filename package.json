@@ -1,6 +1,6 @@
 {
   "name": "studentbostader-api",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An API to retrieve student accommondations from studentbostader.se",
   "main": "index.js",
   "scripts": {

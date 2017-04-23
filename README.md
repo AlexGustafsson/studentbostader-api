@@ -43,7 +43,7 @@ api.fetchAccommodations()
 | text | Text related to the listing | string | Usually "sells" the location and accommodation |
 | publicationTexts | List of texts related to the listing | array of strings | Unkown usage |
 | description | Usually a short description of the listing | string | I.e. 'Ej möblerad' |
-| id | Id of the listing | number | Unknown usage |
+| id | Id of the listing | number | Reference id for the listing |
 | points | Required queue points to be eligible | number |  |
 | advertType |  |  | Unknown usage |
 | directlyAvailable | Whether or not the accommodation is listed as 'Boende Direkt' | bool | |
