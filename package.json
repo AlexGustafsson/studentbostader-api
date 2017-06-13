@@ -1,6 +1,6 @@
 {
   "name": "studentbostader-api",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "An API to retrieve student accommondations from studentbostader.se",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/alexgustafsson/itslearning.git"
+    "url": "git://github.com/alexgustafsson/studentbostader-api.git"
   },
   "author": "Alex Gustafsson",
   "license": "ISC",
